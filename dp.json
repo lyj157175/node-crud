@@ -1,0 +1,10 @@
+{
+    "student":[
+        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
+        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
+        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
+        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
+        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
+        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"}
+    ]
+}

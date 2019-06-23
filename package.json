@@ -1,0 +1,25 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "使用node的express框架完成一个Bootstrap模板的增删改查",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyj157175/node-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyj157175/node-crud/issues"
+  },
+  "homepage": "https://github.com/lyj157175/node-crud#readme",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.17.1",
+    "express-art-template": "^1.0.1"
+  }
+}
