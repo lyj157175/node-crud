@@ -1,10 +1,1 @@
-{
-    "student":[
-        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
-        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
-        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
-        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
-        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"},
-        {"name":"wangwu","id":1,"age":12,"car":"学生","hobby":"篮球"}
-    ]
-}
+{"students":[{"id":1,"name":"韩信","gender":"0","age":12,"hobby":"篮球"},{"id":2,"name":"妲己","gender":"1","age":15,"hobby":"足球"},{"id":3,"name":"安其拉","gender":"0","age":18,"hobby":"羽毛球"},{"id":4,"name":"李白","gender":"1","age":12,"hobby":"跑步"},{"id":5,"name":"干将","gender":"0","age":16,"hobby":"滑雪"},{"id":6,"name":"猴哥","gender":"1","age":12,"hobby":"游泳"},{"name":"星耀","gender":"0","age":"16","hobby":"打篮球","id":7}]}

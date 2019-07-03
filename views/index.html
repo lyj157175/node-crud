@@ -9,14 +9,11 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
     <title>express-crud</title>
-
     <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/public/css/main.css" rel="stylesheet">
-
 </head>
 
 <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -42,7 +39,6 @@
             </div>
         </div>
     </nav>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3 col-md-2 sidebar">
@@ -78,29 +74,29 @@
                     </div>
                     {{/each}}
                 </div>
-
                 <h2 class="sub-header">Section title</h2>
+                <a class="btn btn-success" href="/students/new">添加学生</a>
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
-                                <tr>                            
-                                        <th>姓名</th>
-                                        <th>性别</th>
-                                        <th>年龄</th>
-                                        <th>爱好</th>
-                                        <th>操作</th>
-                                      </tr>
+                            <tr>
+                                <th>ID</th>
+                                <th>姓名</th>
+                                <th>性别</th>
+                                <th>年龄</th>
+                                <th>爱好</th>
+                            </tr>
                         </thead>
                         <tbody>
                             {{each students}}
                             <tr>
-                                <td>{{$value.name}}</td>
                                 <td>{{$value.id}}</td>
+                                <td>{{$value.name}}</td>
+                                <td>{{$value.gender}}</td>
                                 <td>{{$value.age}}</td>
-                                <td>{{$value.car}}</td>
                                 <td>{{$value.hobby}}</td>
-                            </tr> 
-                            {{/each}}                        
+                            </tr>
+                            {{/each}}
                         </tbody>
                     </table>
                 </div>
